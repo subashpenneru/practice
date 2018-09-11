@@ -1,0 +1,84 @@
+header {
+  position: relative;
+  height: 100px;
+  margin: 10px;
+  background-color: lightblue;
+  text-align: center;
+}
+header h1 {
+  position: absolute;
+    width: 1042px;
+  left: 5%;
+}
+nav ul {
+  /* position: absolute; */
+  list-style-type: none;
+  /* mborder: 10px solid red;argin: 0; */
+}
+nav li {
+  display: inline;
+}
+a:link, a:visited {
+  text-decoration: none;
+  font-weight: bold;
+}
+.headnav nav a:link, .headnav nav a:visited {
+  color: white;
+  background-color: brown;
+  display: inline-block;
+  text-align: center;
+  width: 175px;
+  padding: 25px;
+}
+.headnav nav a:hover {
+  background-color: black;
+}
+.logSection {
+  position: relative;
+}
+.logSection form {
+  position: absolute;
+  left: 32%;
+  top: 50px;
+}
+.logSection form input, .logSection form {
+  font-size: 30px;
+}
+.logSection form input[type = text], .logSection form input[type=password], .logSection form input[type=email]{
+  border: 2px solid brown;
+  float: right;
+}
+.logSection form input[type=submit] {
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+  border: 2px solid;
+  position: absolute;
+  left: 42%;
+  cursor: pointer;
+}
+.logSection form select {
+  position: absolute;
+  left: 30%;
+  width: 120px;
+  height: 50px;
+  border: 2px solid brown;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 97%;
+}
+.footer footer {
+  text-align: center;
+}
+.footer footer nav a:link, .footer footer nav a:visited {
+  display: inline-block;
+  text-align: center;
+  width: 175px;
+  padding: 4px;
+  color: grey;
+}
+.footer footer nav a:hover {
+  color: black;
+}
