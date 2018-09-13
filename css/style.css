@@ -30,9 +30,15 @@ a:link, a:visited {
 .headnav nav a:hover {
   background-color: black;
 }
+div {
+  border: 1px solid grey;
+  text-align: center;
+}
 form {
+  width: 50%;
   position: relative;
   margin: 10px;
+  left: 25%;
   padding: 10px;
   background-color: lightgrey;
   text-align: center;
