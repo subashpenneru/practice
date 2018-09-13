@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+form {
+    /* background-color: rgba(235, 233, 233, 0.801); */
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    width: 50%;
+    height: 350px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 325px;
+    position: relative;
+}
+label {
+    width: 35%;
+    font-size: 20px;
+    /* margin-bottom: 5px; */
+    /* float: left; */
+    font-size: 30px;
+    margin-right: 15px;
+}
+input {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+input[type=text], input[type=password]{
+    border: none;
+    border-bottom: 2px solid rgb(2, 170, 226);
+}
