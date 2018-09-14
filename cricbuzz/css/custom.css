@@ -1,0 +1,13 @@
+body {
+  margin: 25px;
+}
+.bg-light {
+  background-color: lightgreen !important;
+}
+.btn-outline-success {
+  background-color: lightgrey;
+  color: green;
+}
+.navbar {
+  margin-bottom: 10px;
+}
